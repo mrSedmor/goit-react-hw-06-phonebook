@@ -5,7 +5,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { getContacts } from 'redux/selectors';
-import { addContact } from 'redux/contactsSlice';
+import { addContact } from 'redux/phonebookSlice';
 import css from './contact-form.module.css';
 import sharedCss from 'shared.module.css';
 

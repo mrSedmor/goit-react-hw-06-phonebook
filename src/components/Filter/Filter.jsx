@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { FaBackspace } from 'react-icons/fa';
 import { getFilter } from 'redux/selectors';
-import { setFilter } from 'redux/filterSlice';
+import { setFilter } from 'redux/phonebookSlice';
 import css from './filter.module.css';
 
 export default function Filter() {
